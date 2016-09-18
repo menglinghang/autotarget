@@ -1,6 +1,5 @@
 package com.target.servlet;
 
-import com.google.gson.JsonObject;
 import com.target.DAO.SqlDao;
 import org.json.JSONException;
 import org.json.JSONObject;

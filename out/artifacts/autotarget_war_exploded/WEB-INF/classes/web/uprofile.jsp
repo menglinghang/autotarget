@@ -229,65 +229,37 @@
                                         </div>
 
                                         <div class="tab-pane" id="2">
-                                            <form id="edit-profile2" class="form-horizontal" />
+                                            <form id="edit-profile2" name="changepassword" class="form-horizontal" />
                                             <fieldset>
 
 
-                                                <div class="control-group">
-                                                    <label class="control-label" for="accounttype">Account Type</label>
-                                                    <div class="controls">
-                                                        <label class="radio">
-                                                            <input type="radio" name="accounttype" value="option1" checked="checked" id="accounttype" />
-                                                            POP3
-                                                        </label>
-                                                        <label class="radio">
-                                                            <input type="radio" name="accounttype" value="option2" />
-                                                            IMAP
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <div class="control-group">
-                                                    <label class="control-label" for="accountusername">Account Username</label>
-                                                    <div class="controls">
-                                                        <input type="text" class="input-large" id="accountusername" value="rod.howard@example.com" />
-                                                        <p class="help-block">Leave blank to use your profile email address.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="control-group">
-                                                    <label class="control-label" for="emailserver">Email Server</label>
-                                                    <div class="controls">
-                                                        <input type="text" class="input-large" id="emailserver" value="mail.example.com" />
-                                                    </div>
-                                                </div>
-                                                <div class="control-group">
-                                                    <label class="control-label" for="accountpassword">Password</label>
-                                                    <div class="controls">
-                                                        <input type="text" class="input-large" id="accountpassword" value="password" />
-                                                    </div>
-                                                </div>
-
-
 
 
                                                 <div class="control-group">
-                                                    <label class="control-label" for="accountadvanced">Advanced Settings</label>
+                                                    <label class="control-label" for="originpassword">原密码</label>
                                                     <div class="controls">
-                                                        <label class="checkbox">
-                                                            <input type="checkbox" name="accountadvanced" value="option1" checked="checked" id="accountadvanced" />
-                                                            User encrypted connection when accessing this server
-                                                        </label>
-                                                        <label class="checkbox">
-                                                            <input type="checkbox" name="accounttype" value="option2" />
-                                                            Download all message on connection
-                                                        </label>
+                                                        <input type="password" class="input-large" id="originpassword" />
                                                     </div>
                                                 </div>
+                                                <div class="control-group">
+                                                    <label class="control-label" for="newpassword">新密码</label>
+                                                    <div class="controls">
+                                                        <input type="password" class="input-large" id="newpassword" />
+                                                    </div>
+                                                </div>
+                                                <div class="control-group">
+                                                    <label class="control-label" for="repeatpassword">确认新密码</label>
+                                                    <div class="controls">
+                                                        <input type="password" class="input-large" id="repeatpassword" />
+                                                    </div>
+                                                </div>
+                                                <p id="fault"></p>
 
 
                                                 <br />
 
                                                 <div class="form-actions">
-                                                    <button type="submit" class="btn btn-primary">Save</button> <button class="btn">Cancel</button>
+                                                    <button type="submit" class="btn btn-primary">提交</button> <button class="btn">返回</button>
                                                 </div>
                                             </fieldset>
                                             </form>
@@ -362,6 +334,15 @@
         }
         });
     });
+
+    function isMatch(){
+       if(changepassword.newpassword.value!=changepassword.repeatpassword.value){
+           document.getElementById("fault").innerHTML="两次密码不匹配！";
+           alert(111);
+           return false;
+       }
+       return true;
+    }
 </script>
 
 </body>

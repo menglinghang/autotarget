@@ -134,9 +134,7 @@
                 </h1>
 
 
-
-
-                <div class="row">
+            <!--    <div class="row">
 
                     <div class="span5">
 
@@ -146,15 +144,15 @@
                                 <h3>5 Column</h3>
                             </div> <!-- /widget-header -->
 
-                            <div class="widget-content">
+            <!--                <div class="widget-content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             </div> <!-- /widget-content -->
 
-                        </div> <!-- /widget -->
+            <!--            </div> <!-- /widget -->
 
-                    </div> <!-- /span5 -->
+            <!--       </div> <!-- /span5 -->
 
-                    <div class="span4">
+            <!--        <div class="span4">
 
                         <div class="widget">
 
@@ -162,14 +160,67 @@
                                 <h3>4 Column</h3>
                             </div> <!-- /widget-header -->
 
-                            <div class="widget-content">
+        <!--                    <div class="widget-content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div> <!-- /widget-content -->
 
-                        </div> <!-- /widget -->
-                    </div> <!-- /span4 -->
+        <!--                </div> <!-- /widget -->
+        <!--            </div> <!-- /span4 -->
 
-                </div> <!-- /row -->
+        <!--        </div> <!-- /row -->
+
+
+
+
+                <div class="container span8">
+                    <br>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="item active">
+                                <img src="./img/img_chania.jpg" alt="Chania" width="460" height="345" class="span8">
+                                <div class="carousel-caption">
+                                    <h3>Chania</h3>
+                                    <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img src="./img/img_chania2.jpg" alt="Chania" width="460" height="345" class="span8">
+                            </div>
+
+                            <div class="item">
+                                <img src="./img/img_flower.jpg" alt="Flower" width="460" height="345" class="span8">
+                            </div>
+
+                            <div class="item">
+                                <img src="./img/img_flower2.jpg" alt="Flower" width="460" height="345" class="span8">
+                            </div>
+
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">P</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">N</span>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
 
             </div> <!-- /span9 -->
 
@@ -196,7 +247,7 @@
 <script src="./js/jquery.flot.resize.js"></script>
 
 <script src="./js/bootstrap.js"></script>
-<script src="./js/charts/bar.js"></script>
+
 
 </body>
 </html>

@@ -259,7 +259,7 @@
                                                 <br />
 
                                                 <div class="form-actions">
-                                                    <button type="submit" class="btn btn-primary">提交</button> <button class="btn">返回</button>
+                                                    <button type="submit" onSubmit="return isMatch(this);" class="btn btn-primary">提交</button> <button class="btn">返回</button>
                                                 </div>
                                             </fieldset>
                                             </form>
