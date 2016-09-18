@@ -152,28 +152,28 @@
                     <div class="stat-holder">
                         <div class="stat">
                             <span>564</span>
-                            Completed Sales
+                            总人数
                         </div> <!-- /stat -->
                     </div> <!-- /stat-holder -->
 
                     <div class="stat-holder">
                         <div class="stat">
                             <span>423</span>
-                            Pending Sales
+                            及格人数
                         </div> <!-- /stat -->
                     </div> <!-- /stat-holder -->
 
                     <div class="stat-holder">
                         <div class="stat">
                             <span>96</span>
-                            Returned Sales
+                            不及格人数
                         </div> <!-- /stat -->
                     </div> <!-- /stat-holder -->
 
                     <div class="stat-holder">
                         <div class="stat">
                             <span>2</span>
-                            Chargebacks
+                            暂空
                         </div> <!-- /stat -->
                     </div> <!-- /stat-holder -->
 
