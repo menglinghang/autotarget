@@ -229,16 +229,16 @@
                                         </div>
 
                                         <div class="tab-pane" id="2">
-                                            <form id="edit-profile2" name="changepassword" class="form-horizontal" />
+                                            <p id="edit-profile2" class="form-horizontal" />
                                             <fieldset>
 
 
 
 
                                                 <div class="control-group">
-                                                    <label class="control-label" for="originpassword">原密码</label>
+                                                    <label class="control-label" for="oldpassword">原密码</label>
                                                     <div class="controls">
-                                                        <input type="password" class="input-large" id="originpassword" />
+                                                        <input type="password" class="input-large" id="oldpassword" />
                                                     </div>
                                                 </div>
                                                 <div class="control-group">
@@ -253,16 +253,16 @@
                                                         <input type="password" class="input-large" id="repeatpassword" />
                                                     </div>
                                                 </div>
-                                                <p id="fault"></p>
+                                                <p id="fault" name="faultw"></p>
 
 
                                                 <br />
 
                                                 <div class="form-actions">
-                                                    <button type="submit" class="btn btn-primary">提交</button> <button class="btn">返回</button>
+                                                    <button type="submit" id="changepasswd" class="btn btn-primary">提交</button> <a class="btn" href="uprofile.jsp">返回</a>
                                                 </div>
                                             </fieldset>
-                                            </form>
+                                            </p>
                                         </div>
 
                                     </div>
@@ -333,15 +333,34 @@
 
         }
         });
+
+
+
     });
 
-    function isMatch(){
-       if(changepassword.newpassword.value!=changepassword.repeatpassword.value){
-           document.getElementById("fault").innerHTML="两次密码不匹配！";
-           alert(111);
-           return false;
-       }
-       return true;
+</script>
+
+<script>
+    $("#changepasswd").click(function () {
+       //alert($("#repeatpassword").val());
+        if($("#newpassword").val()!=$("#repeatpassword").val()){
+            alert("两次输入新密码不匹配！");
+            //document.getElementsByName("faultw").innerHTML=errorword;
+        }
+        else{
+                postdata();
+        }
+
+    });
+
+    function postdata() {
+        //alert(1111);
+        $.ajax({url:"userchangepasswd",
+            type:"post",
+            data:"oldpassword="+$("#oldpassword").val()+"&newpassword="+$("#newpassword").val()+"&repeatpassword="+$("#repeatpassword").val(),
+            success:function (data) {
+                alert(data);
+            }})
     }
 </script>
 
