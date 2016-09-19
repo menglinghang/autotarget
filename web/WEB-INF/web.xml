@@ -4,11 +4,15 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     <display-name>自动报靶系统</display-name>
-    
+
+
+    <!-- 首页  -->
     <welcome-file-list>
         <welcome-file>login.jsp</welcome-file>
     </welcome-file-list>
 
+
+    <!-- servlet的url映射 -->
     <servlet>
         <servlet-name>LoginCheck</servlet-name>
         <servlet-class>com.target.servlet.LoginCheck</servlet-class>
@@ -63,4 +67,18 @@
         <filter-name>sessionFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>   -->
+
+
+    <!-- 为树莓派建立的url   -->
+    <servlet>
+        <servlet-name>getstatistic</servlet-name>
+        <servlet-class>com.target.forRPI.getStatistic</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getstatistic</servlet-name>
+        <url-pattern>/getstatistic</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>
