@@ -1,5 +1,6 @@
 package com.target.servlet;
 
+import com.target.DAO.SqlDao;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -25,12 +26,23 @@ public class UserChangePasswd extends HttpServlet {
         String newpassword = request.getParameter("newpassword");
         String repeatpassword = request.getParameter("repeatpassword");
 
+        String sql = "UPDATE user_table SET password='"+newpassword+"' WHERE password='"+oldpassword+"'";
+        SqlDao sqlDao = new SqlDao();
+        int num;
+        String msg;  //返回给前端，1代表修改密码成功，0代表失败
+        num = sqlDao.exectuteUpdate(sql);
+        if (num==1){
+            msg = "修改密码成功！";
+        } else {
+            msg = "抱歉，修改密码失败！";
+        }
+
         JSONObject jsonObject = new JSONObject();
         try {
-            jsonObject.put("msg",1);
-            jsonObject.put("oldpassword",oldpassword);
-            jsonObject.put("newpassword",newpassword);
-            jsonObject.put("repeatpassword",repeatpassword);
+            jsonObject.put("msg",msg);
+            //jsonObject.put("oldpassword",oldpassword);
+            //jsonObject.put("newpassword",newpassword);
+            //cd jsonObject.put("repeatpassword",repeatpassword);
         } catch (JSONException e) {
             e.printStackTrace();
         }

@@ -359,7 +359,8 @@
             type:"post",
             data:"oldpassword="+$("#oldpassword").val()+"&newpassword="+$("#newpassword").val()+"&repeatpassword="+$("#repeatpassword").val(),
             success:function (data) {
-                alert(data);
+                var json = eval("("+data+")");
+                alert(json.msg);
             }})
     }
 </script>
