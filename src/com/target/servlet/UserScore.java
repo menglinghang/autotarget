@@ -21,6 +21,9 @@ import java.util.Map;
 /**
  * Created by jiejiao on 2016/8/10.
  */
+
+
+//显示user分数，id,类型等信息
 @WebServlet(name = "UserScore")
 public class UserScore extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

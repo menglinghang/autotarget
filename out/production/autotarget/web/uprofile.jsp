@@ -317,7 +317,7 @@
 <script src="./js/bootstrap.js"></script>
 
 <script>
-    $(document).ready(function(){
+    $(document).ready(function(){    //用来显示基本信息
         var url="userprofile";
 
         $.ajax({url: url, type: "post", success: function (data) {

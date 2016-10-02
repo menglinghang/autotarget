@@ -21,6 +21,8 @@ import java.util.Map;
 /**
  * Created by jiejiao on 2016/9/5.
  */
+
+//用来显示user基本信息
 @WebServlet(name = "UserProfile")
 public class UserProfile extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

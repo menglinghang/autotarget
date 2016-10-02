@@ -21,6 +21,9 @@ import java.util.Map;
 /**
  * Created by jiejiao on 2016/8/19.
  */
+
+
+//显示user名次，平均分等
 @WebServlet(name = "UserStatistic")
 public class UserStatistic extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

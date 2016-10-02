@@ -294,10 +294,14 @@
             //alert(data);
             var json=eval("("+data+")");
             var list=json.aaData;
-            //alert(list);
+            alert(list);
             document.getElementById("userid").innerHTML=list[0].userid;
+            //document.getElementById("number").innerHTML=list[0].number;
             document.getElementById("name").innerHTML=list[0].name;
             document.getElementById("department").innerHTML=list[0].department;
+            //document.getElementById("office").innerHTML=list[0].office;
+            //document.getElementById("date").innerHTML=list[0].date;
+
         }
         });
 
@@ -321,6 +325,7 @@
     });
 
     function postdata() {
+        //alert(1111);
         $.ajax({url:"userchangepasswd",
             type:"post",
             data:"oldpassword="+$("#oldpassword").val()+"&newpassword="+$("#newpassword").val()+"&repeatpassword="+$("#repeatpassword").val(),

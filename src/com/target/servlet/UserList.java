@@ -20,6 +20,8 @@ import java.util.Map;
 /**
  * Created by jiejiao on 2016/8/10.
  */
+
+//管理系统的user列表
 @WebServlet(name = "UserList")
 public class UserList extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

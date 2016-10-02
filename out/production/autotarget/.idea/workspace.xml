@@ -2,328 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8d0eec8-f93c-4dfd-b167-a550a4e4ea5f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/DAO/SqlDao.class" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/DAO/SqlDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/bean/User.class" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/bean/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/filter/LoginFillter.class" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/filter/LoginFillter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/forRPI/getStatistic.class" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/forRPI/getStatistic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/servlet/LoginCheck.class" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/servlet/LoginCheck.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/servlet/UserChangePasswd.class" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/servlet/UserChangePasswd.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/servlet/UserList.class" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/servlet/UserList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/servlet/UserProfile.class" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/servlet/UserProfile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/servlet/UserScore.class" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/servlet/UserScore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/servlet/UserStatistic.class" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/servlet/UserStatistic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/WEB-INF/lib/json.jar" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/WEB-INF/lib/json.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/font/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/font/fontawesome-webfont.svgz" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/font/fontawesome-webfont.svgz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/font/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/font/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/font/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/font/fontawesome-webfont_162a16fe.eot" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/font/fontawesome-webfont_162a16fe.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/Thumbs.db" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/body-bg.png" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/body-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/headshot.png" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/headshot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/img_chania.jpg" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/img_chania.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/img_chania2.jpg" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/img_chania2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/img_flower.jpg" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/img_flower.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/img_flower2.jpg" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/img/img_flower2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/lib/json.jar" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/lib/json.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/font/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/font/fontawesome-webfont.svgz" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/font/fontawesome-webfont.svgz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/font/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/font/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/font/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/font/fontawesome-webfont_162a16fe.eot" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/font/fontawesome-webfont_162a16fe.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/Thumbs.db" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/body-bg.png" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/body-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/headshot.png" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/headshot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/img_chania (another copy).jpg" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/img_chania (another copy).jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/img_chania (copy).jpg" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/img_chania (copy).jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/img_chania.jpg" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/img_chania.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/img_chania2.jpg" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/img_chania2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/img_flower.jpg" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/img_flower.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/img_flower2.jpg" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/img/img_flower2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/com/target/DAO/SqlDao.class" afterPath="$PROJECT_DIR$/out/production/autotarget/com/target/DAO/SqlDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/com/target/bean/User.class" afterPath="$PROJECT_DIR$/out/production/autotarget/com/target/bean/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/com/target/filter/LoginFillter.class" afterPath="$PROJECT_DIR$/out/production/autotarget/com/target/filter/LoginFillter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/com/target/forRPI/getStatistic.class" afterPath="$PROJECT_DIR$/out/production/autotarget/com/target/forRPI/getStatistic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/com/target/servlet/LoginCheck.class" afterPath="$PROJECT_DIR$/out/production/autotarget/com/target/servlet/LoginCheck.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/com/target/servlet/UserChangePasswd.class" afterPath="$PROJECT_DIR$/out/production/autotarget/com/target/servlet/UserChangePasswd.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/com/target/servlet/UserList.class" afterPath="$PROJECT_DIR$/out/production/autotarget/com/target/servlet/UserList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/com/target/servlet/UserProfile.class" afterPath="$PROJECT_DIR$/out/production/autotarget/com/target/servlet/UserProfile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/com/target/servlet/UserScore.class" afterPath="$PROJECT_DIR$/out/production/autotarget/com/target/servlet/UserScore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/com/target/servlet/UserStatistic.class" afterPath="$PROJECT_DIR$/out/production/autotarget/com/target/servlet/UserStatistic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/WEB-INF/lib/json.jar" afterPath="$PROJECT_DIR$/out/production/autotarget/web/WEB-INF/lib/json.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/out/production/autotarget/web/font/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/font/fontawesome-webfont.svgz" afterPath="$PROJECT_DIR$/out/production/autotarget/web/font/fontawesome-webfont.svgz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/font/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/out/production/autotarget/web/font/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/out/production/autotarget/web/font/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/font/fontawesome-webfont_162a16fe.eot" afterPath="$PROJECT_DIR$/out/production/autotarget/web/font/fontawesome-webfont_162a16fe.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/img/Thumbs.db" afterPath="$PROJECT_DIR$/out/production/autotarget/web/img/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/img/body-bg.png" afterPath="$PROJECT_DIR$/out/production/autotarget/web/img/body-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/img/headshot.png" afterPath="$PROJECT_DIR$/out/production/autotarget/web/img/headshot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/img/img_chania.jpg" afterPath="$PROJECT_DIR$/out/production/autotarget/web/img/img_chania.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/img/img_chania2.jpg" afterPath="$PROJECT_DIR$/out/production/autotarget/web/img/img_chania2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/img/img_flower.jpg" afterPath="$PROJECT_DIR$/out/production/autotarget/web/img/img_flower.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/img/img_flower2.jpg" afterPath="$PROJECT_DIR$/out/production/autotarget/web/img/img_flower2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/json.jar" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/web/font/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.svgz" afterPath="$PROJECT_DIR$/web/font/fontawesome-webfont.svgz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/web/font/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/web/font/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont_162a16fe.eot" afterPath="$PROJECT_DIR$/web/font/fontawesome-webfont_162a16fe.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/Thumbs.db" afterPath="$PROJECT_DIR$/web/img/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/body-bg.png" afterPath="$PROJECT_DIR$/web/img/body-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/headshot.png" afterPath="$PROJECT_DIR$/web/img/headshot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/img_chania.jpg" afterPath="$PROJECT_DIR$/web/img/img_chania.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/img_chania2.jpg" afterPath="$PROJECT_DIR$/web/img/img_chania2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/img_flower.jpg" afterPath="$PROJECT_DIR$/web/img/img_flower.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/img_flower2.jpg" afterPath="$PROJECT_DIR$/web/img/img_flower2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/autotarget_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/autotarget_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/abd402a4-e008-467c-b6e1-1aeeb1845d10.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/abd402a4-e008-467c-b6e1-1aeeb1845d10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/json.xml" afterPath="$PROJECT_DIR$/.idea/libraries/json.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_35_bin.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_35_bin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotarget.iml" afterPath="$PROJECT_DIR$/autotarget.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/.name" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/artifacts/autotarget_war_exploded.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/artifacts/autotarget_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/compiler.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/dataSources/abd402a4-e008-467c-b6e1-1aeeb1845d10.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/dataSources/abd402a4-e008-467c-b6e1-1aeeb1845d10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/encodings.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/libraries/gson_2_3_1.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/libraries/gson_2_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/libraries/json.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/libraries/json.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/libraries/mysql_connector_java_5_1_35_bin.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/libraries/mysql_connector_java_5_1_35_bin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/modules.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/vcs.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/README.md" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/autotarget.iml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/autotarget.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/DAO/database.properties" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/com/target/DAO/database.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/uprofile.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/uprofile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/artifacts/autotarget_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/artifacts/autotarget_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/artifacts/autotarget_war_exploded/uprofile.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/artifacts/autotarget_war_exploded/uprofile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/artifacts/autotarget_war_exploded/user_index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/artifacts/autotarget_war_exploded/user_index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/production/autotarget/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/production/autotarget/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/production/autotarget/web/uprofile.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/out/production/autotarget/web/uprofile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/src/com/target/DAO/database.properties" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/src/com/target/DAO/database.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/target sql/admin_table.sql" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/target sql/admin_table.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/target sql/statistic_table.sql" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/target sql/statistic_table.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/target sql/target.sql" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/target sql/target.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/target sql/user_table.sql" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/target sql/user_table.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/admin_index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/admin_index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/amanageuser.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/amanageuser.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/aprofile.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/aprofile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/areport.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/areport.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/astatistic.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/astatistic.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/adminia-responsive.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/adminia-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/adminia.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/adminia.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/bootstrap-responsive.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/dataTables.bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/font-awesome.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/pages/dashboard.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/pages/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/pages/faq.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/pages/faq.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/pages/login.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/pages/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/pages/plans.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/css/pages/plans.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/font/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/font/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/footer.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/footer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/bootstrap.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/charts/area.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/charts/area.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/charts/bar.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/charts/bar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/charts/line.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/charts/line.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/charts/pie.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/charts/pie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/dataTables.bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/excanvas.min.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/excanvas.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/faq.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/faq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery-1.7.2.min.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery-1.7.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery-1.7.2.min_74e92c4.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery-1.7.2.min_74e92c4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery.dataTables.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery.flot.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery.flot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery.flot.orderBars.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery.flot.orderBars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery.flot.pie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery.flot.resize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery.uniform.min.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/js/jquery.uniform.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/navbar_top.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/navbar_top.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/uprofile.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/uprofile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/user_index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/user_index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/uskill.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/uskill.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/ustatistic.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/classes/web/ustatistic.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/admin_index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/admin_index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/amanageuser.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/amanageuser.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/aprofile.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/aprofile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/areport.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/areport.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/astatistic.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/astatistic.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/adminia-responsive.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/adminia-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/adminia.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/adminia.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/bootstrap-responsive.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/dataTables.bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/font-awesome.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/pages/dashboard.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/pages/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/pages/faq.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/pages/faq.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/pages/login.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/pages/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/pages/plans.css" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/css/pages/plans.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/font/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/font/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/footer.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/footer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/bootstrap.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/charts/area.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/charts/area.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/charts/bar.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/charts/bar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/charts/line.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/charts/line.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/charts/pie.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/charts/pie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/dataTables.bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/excanvas.min.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/excanvas.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/faq.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/faq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery-1.7.2.min.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery-1.7.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery-1.7.2.min_74e92c4.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery-1.7.2.min_74e92c4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery.dataTables.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery.flot.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery.flot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery.flot.orderBars.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery.flot.orderBars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery.flot.pie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery.flot.resize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery.uniform.min.js" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/js/jquery.uniform.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/navbar_top.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/navbar_top.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/uprofile.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/uprofile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/user_index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/user_index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/uskill.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/uskill.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/ustatistic.jsp" afterPath="$PROJECT_DIR$/out/artifacts/autotarget_war_exploded/ustatistic.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/.name" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/artifacts/autotarget_war_exploded.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/artifacts/autotarget_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/compiler.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/dataSources/abd402a4-e008-467c-b6e1-1aeeb1845d10.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/dataSources/abd402a4-e008-467c-b6e1-1aeeb1845d10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/encodings.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/libraries/gson_2_3_1.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/libraries/gson_2_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/libraries/json.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/libraries/json.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/libraries/mysql_connector_java_5_1_35_bin.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/libraries/mysql_connector_java_5_1_35_bin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/modules.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/vcs.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/README.md" afterPath="$PROJECT_DIR$/out/production/autotarget/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/autotarget.iml" afterPath="$PROJECT_DIR$/out/production/autotarget/autotarget.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/com/target/DAO/database.properties" afterPath="$PROJECT_DIR$/out/production/autotarget/com/target/DAO/database.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/src/com/target/DAO/database.properties" afterPath="$PROJECT_DIR$/out/production/autotarget/src/com/target/DAO/database.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/target sql/admin_table.sql" afterPath="$PROJECT_DIR$/out/production/autotarget/target sql/admin_table.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/target sql/statistic_table.sql" afterPath="$PROJECT_DIR$/out/production/autotarget/target sql/statistic_table.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/target sql/target.sql" afterPath="$PROJECT_DIR$/out/production/autotarget/target sql/target.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/target sql/user_table.sql" afterPath="$PROJECT_DIR$/out/production/autotarget/target sql/user_table.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/production/autotarget/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/admin_index.jsp" afterPath="$PROJECT_DIR$/out/production/autotarget/web/admin_index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/amanageuser.jsp" afterPath="$PROJECT_DIR$/out/production/autotarget/web/amanageuser.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/aprofile.jsp" afterPath="$PROJECT_DIR$/out/production/autotarget/web/aprofile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/areport.jsp" afterPath="$PROJECT_DIR$/out/production/autotarget/web/areport.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/astatistic.jsp" afterPath="$PROJECT_DIR$/out/production/autotarget/web/astatistic.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/css/adminia-responsive.css" afterPath="$PROJECT_DIR$/out/production/autotarget/web/css/adminia-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/css/adminia.css" afterPath="$PROJECT_DIR$/out/production/autotarget/web/css/adminia.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/out/production/autotarget/web/css/bootstrap-responsive.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/out/production/autotarget/web/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/css/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/out/production/autotarget/web/css/dataTables.bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/css/font-awesome.css" afterPath="$PROJECT_DIR$/out/production/autotarget/web/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/css/pages/dashboard.css" afterPath="$PROJECT_DIR$/out/production/autotarget/web/css/pages/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/css/pages/faq.css" afterPath="$PROJECT_DIR$/out/production/autotarget/web/css/pages/faq.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/css/pages/login.css" afterPath="$PROJECT_DIR$/out/production/autotarget/web/css/pages/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/css/pages/plans.css" afterPath="$PROJECT_DIR$/out/production/autotarget/web/css/pages/plans.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/font/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/out/production/autotarget/web/font/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/footer.jsp" afterPath="$PROJECT_DIR$/out/production/autotarget/web/footer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/bootstrap.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/charts/area.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/charts/area.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/charts/bar.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/charts/bar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/charts/line.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/charts/line.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/charts/pie.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/charts/pie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/dataTables.bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/excanvas.min.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/excanvas.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/faq.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/faq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery-1.7.2.min.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery-1.7.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery-1.7.2.min_74e92c4.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery-1.7.2.min_74e92c4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery.dataTables.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery.flot.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery.flot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery.flot.orderBars.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery.flot.orderBars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery.flot.pie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery.flot.resize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery.uniform.min.js" afterPath="$PROJECT_DIR$/out/production/autotarget/web/js/jquery.uniform.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/login.jsp" afterPath="$PROJECT_DIR$/out/production/autotarget/web/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/navbar_top.jsp" afterPath="$PROJECT_DIR$/out/production/autotarget/web/navbar_top.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/uprofile.jsp" afterPath="$PROJECT_DIR$/out/production/autotarget/web/uprofile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/user_index.jsp" afterPath="$PROJECT_DIR$/out/production/autotarget/web/user_index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/uskill.jsp" afterPath="$PROJECT_DIR$/out/production/autotarget/web/uskill.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/autotarget/web/ustatistic.jsp" afterPath="$PROJECT_DIR$/out/production/autotarget/web/ustatistic.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/target/DAO/SqlDao.java" afterPath="$PROJECT_DIR$/src/com/target/DAO/SqlDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/target/DAO/database.properties" afterPath="$PROJECT_DIR$/src/com/target/DAO/database.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/target/bean/User.java" afterPath="$PROJECT_DIR$/src/com/target/bean/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/target/filter/LoginFillter.java" afterPath="$PROJECT_DIR$/src/com/target/filter/LoginFillter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/target/forRPI/getStatistic.java" afterPath="$PROJECT_DIR$/src/com/target/forRPI/getStatistic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/target/servlet/LoginCheck.java" afterPath="$PROJECT_DIR$/src/com/target/servlet/LoginCheck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/target/servlet/UserChangePasswd.java" afterPath="$PROJECT_DIR$/src/com/target/servlet/UserChangePasswd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/target/servlet/UserList.java" afterPath="$PROJECT_DIR$/src/com/target/servlet/UserList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/target/servlet/UserProfile.java" afterPath="$PROJECT_DIR$/src/com/target/servlet/UserProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/target/servlet/UserScore.java" afterPath="$PROJECT_DIR$/src/com/target/servlet/UserScore.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/target/servlet/UserStatistic.java" afterPath="$PROJECT_DIR$/src/com/target/servlet/UserStatistic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target sql/admin_table.sql" afterPath="$PROJECT_DIR$/target sql/admin_table.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target sql/statistic_table.sql" afterPath="$PROJECT_DIR$/target sql/statistic_table.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target sql/target.sql" afterPath="$PROJECT_DIR$/target sql/target.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target sql/user_table.sql" afterPath="$PROJECT_DIR$/target sql/user_table.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin_index.jsp" afterPath="$PROJECT_DIR$/web/admin_index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/amanageuser.jsp" afterPath="$PROJECT_DIR$/web/amanageuser.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/aprofile.jsp" afterPath="$PROJECT_DIR$/web/aprofile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/areport.jsp" afterPath="$PROJECT_DIR$/web/areport.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/astatistic.jsp" afterPath="$PROJECT_DIR$/web/astatistic.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/adminia-responsive.css" afterPath="$PROJECT_DIR$/web/css/adminia-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/adminia.css" afterPath="$PROJECT_DIR$/web/css/adminia.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/web/css/bootstrap-responsive.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/web/css/dataTables.bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/font-awesome.css" afterPath="$PROJECT_DIR$/web/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/pages/dashboard.css" afterPath="$PROJECT_DIR$/web/css/pages/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/pages/faq.css" afterPath="$PROJECT_DIR$/web/css/pages/faq.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/pages/login.css" afterPath="$PROJECT_DIR$/web/css/pages/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/pages/plans.css" afterPath="$PROJECT_DIR$/web/css/pages/plans.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/web/font/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/footer.jsp" afterPath="$PROJECT_DIR$/web/footer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/charts/area.js" afterPath="$PROJECT_DIR$/web/js/charts/area.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/charts/bar.js" afterPath="$PROJECT_DIR$/web/js/charts/bar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/charts/line.js" afterPath="$PROJECT_DIR$/web/js/charts/line.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/charts/pie.js" afterPath="$PROJECT_DIR$/web/js/charts/pie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/web/js/dataTables.bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/excanvas.min.js" afterPath="$PROJECT_DIR$/web/js/excanvas.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/faq.js" afterPath="$PROJECT_DIR$/web/js/faq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery-1.7.2.min.js" afterPath="$PROJECT_DIR$/web/js/jquery-1.7.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery-1.7.2.min_74e92c4.js" afterPath="$PROJECT_DIR$/web/js/jquery-1.7.2.min_74e92c4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/web/js/jquery.dataTables.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.flot.js" afterPath="$PROJECT_DIR$/web/js/jquery.flot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.flot.orderBars.js" afterPath="$PROJECT_DIR$/web/js/jquery.flot.orderBars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/web/js/jquery.flot.pie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/web/js/jquery.flot.resize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.uniform.min.js" afterPath="$PROJECT_DIR$/web/js/jquery.uniform.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/navbar_top.jsp" afterPath="$PROJECT_DIR$/web/navbar_top.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/uprofile.jsp" afterPath="$PROJECT_DIR$/web/uprofile.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/user_index.jsp" afterPath="$PROJECT_DIR$/web/user_index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/uskill.jsp" afterPath="$PROJECT_DIR$/web/uskill.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ustatistic.jsp" afterPath="$PROJECT_DIR$/web/ustatistic.jsp" />
     </list>
     <ignored path="autotarget.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -369,24 +48,6 @@
         <option name="myItemId" value="target" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="user_table" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - @localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="target" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -395,26 +56,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserProfile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/target/servlet/UserProfile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginCheck.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginCheck.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/target/servlet/LoginCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="18">
               <caret line="21" column="59" selection-start-line="20" selection-start-column="8" selection-end-line="21" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -473,12 +120,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserChangePasswd.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserChangePasswd.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/target/servlet/UserChangePasswd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="72">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -574,8 +223,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="226" />
-    <option name="y" value="142" />
+    <option name="x" value="193" />
+    <option name="y" value="265" />
     <option name="width" value="1552" />
     <option name="height" value="627" />
   </component>
@@ -626,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -740,9 +390,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -753,7 +402,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target sql/admin_table.sql" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
@@ -1334,12 +983,18 @@
       <workItem from="1474290704748" duration="5371000" />
       <workItem from="1474330528673" duration="4619000" />
       <workItem from="1474359602230" duration="493000" />
-      <workItem from="1474442868969" duration="16000" />
+      <workItem from="1474442868969" duration="2054000" />
+      <workItem from="1474595306822" duration="597000" />
+      <workItem from="1474598381915" duration="13000" />
+      <workItem from="1474615001951" duration="7000" />
+      <workItem from="1474621197044" duration="983000" />
+      <workItem from="1474855596705" duration="11000" />
+      <workItem from="1475389209659" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172310000" />
+    <option name="totallyTimeSpent" value="175965000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1351,18 +1006,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="226" y="142" width="1552" height="627" extended-state="0" />
-    <editor active="true" />
+    <frame x="193" y="265" width="1552" height="627" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24109867" sideWeight="0.5021716" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52697843" sideWeight="0.5045103" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15553236" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23694338" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5274102" sideWeight="0.49782845" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52697843" sideWeight="0.4954897" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1407,27 +1062,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/navbar_top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/target/DAO/SqlDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1636,30 +1270,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/dceda5b7/abd402a4-e008-467c-b6e1-1aeeb1845d10/target.statistic_table">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/dceda5b7/abd402a4-e008-467c-b6e1-1aeeb1845d10/target.admin_table">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1705,7 +1315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/abd402a4-e008-467c-b6e1-1aeeb1845d10/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/com/target/forRPI/getStatistic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -1715,21 +1324,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/target/servlet/UserProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
+        <state relative-caret-position="267">
           <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/target/servlet/LoginCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="18">
           <caret line="21" column="59" selection-start-line="20" selection-start-column="8" selection-end-line="21" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1789,11 +1394,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/abd402a4-e008-467c-b6e1-1aeeb1845d10/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/target/servlet/UserChangePasswd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="72">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/dceda5b7/abd402a4-e008-467c-b6e1-1aeeb1845d10/target.user_table">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/dceda5b7/abd402a4-e008-467c-b6e1-1aeeb1845d10/target.user_table">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/dceda5b7/abd402a4-e008-467c-b6e1-1aeeb1845d10/target.user_table">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/dceda5b7/abd402a4-e008-467c-b6e1-1aeeb1845d10/target.statistic_table">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/dceda5b7/abd402a4-e008-467c-b6e1-1aeeb1845d10/target.admin_table">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>

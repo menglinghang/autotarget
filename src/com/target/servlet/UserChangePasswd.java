@@ -14,6 +14,8 @@ import java.io.IOException;
 /**
  * Created by mlh on 16-9-19.
  */
+
+//用户修改密码
 @WebServlet(name = "UserChangePasswd")
 public class UserChangePasswd extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

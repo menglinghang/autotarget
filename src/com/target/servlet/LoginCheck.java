@@ -15,6 +15,9 @@ import java.sql.ResultSet;
 /**
  * Created by jiejiao on 2016/8/5.
  */
+
+
+//管理或user登录
 @WebServlet(name = "LoginCheck")
 public class LoginCheck extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -28,7 +31,7 @@ public class LoginCheck extends HttpServlet {
         //out.println(userid+password+is_admin);     //测试用
 
         SqlDao sqlDao = new SqlDao();
-        if (is_admin == 0) {
+        if (is_admin == 0) {                  //判断是否管理员 （  0为非管理， 1为管理  ）
             String sql = "SELECT * FROM user_table WHERE userid = '" + userid + "'AND password = '" + password + "'";
             //System.out.println(sql);
             ResultSet rs = sqlDao.exectuteQuery(sql);

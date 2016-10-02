@@ -57,6 +57,14 @@
         <servlet-name>UserProfile</servlet-name>
         <url-pattern>/userprofile</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>AdminProfile</servlet-name>
+        <servlet-class>com.target.servlet.AdminProfile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminProfile</servlet-name>
+        <url-pattern>/adminprofile</url-pattern>
+    </servlet-mapping>
    <servlet>
        <servlet-name>UserChangePasswd</servlet-name>
        <servlet-class>com.target.servlet.UserChangePasswd</servlet-class>

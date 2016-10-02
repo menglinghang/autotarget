@@ -141,7 +141,7 @@
 
                 <h1 class="page-title">
                     <i class="icon-th-large"></i>
-                    User Account
+                    用户账户
                 </h1>
 
 
@@ -152,7 +152,7 @@
                         <div class="widget">
 
                             <div class="widget-header">
-                                <h3>Basic Information</h3>
+                                <h3>基本信息</h3>
                             </div> <!-- /widget-header -->
 
                             <div class="widget-content">
@@ -162,9 +162,9 @@
                                 <div class="tabbable">
                                     <ul class="nav nav-tabs">
                                         <li class="active">
-                                            <a href="#1" data-toggle="tab">Profile</a>
+                                            <a href="#1" data-toggle="tab">个人资料</a>
                                         </li>
-                                        <li><a href="#2" data-toggle="tab">Settings</a></li>
+                                        <li><a href="#2" data-toggle="tab">修改密码</a></li>
                                     </ul>
 
                                     <br />
@@ -173,133 +173,66 @@
                                         <div class="tab-pane active" id="1">
                                             <form id="edit-profile" class="form-horizontal" />
                                             <fieldset>
+                                                <div class="control-group">
+                                                    <div class="account-avatar">
+                                                        <span class="control-label">头像：</span>
+                                                        <span class="control-label"><img src="./img/headshot.png" alt="" class="img-thumbnail thumbnail" /></span>
+                                                    </div>
+                                                </div> <!-- /account-avatar -->
 
                                                 <div class="control-group">
-                                                    <label class="control-label" for="username">Username</label>
-                                                    <div class="controls">
-                                                        <input type="text" class="input-medium disabled" id="username" value="goideate" disabled="" />
-                                                        <p class="help-block">Your username is for logging in and cannot be changed.</p>
-                                                    </div> <!-- /controls -->
-                                                </div> <!-- /control-group -->
-
+                                                    <span class="control-label">用户名:</span><span class="control-label" id="userid">加载失败...</span>
+                                                </div>
 
                                                 <div class="control-group">
-                                                    <label class="control-label" for="firstname">First Name</label>
-                                                    <div class="controls">
-                                                        <input type="text" class="input-medium" id="firstname" value="Rod" />
-                                                    </div> <!-- /controls -->
-                                                </div> <!-- /control-group -->
+                                                    <span class="control-label">姓名:</span><span class="control-label" id="name">加载失败...</span>
+                                                </div>
 
 
                                                 <div class="control-group">
-                                                    <label class="control-label" for="lastname">Last Name</label>
-                                                    <div class="controls">
-                                                        <input type="text" class="input-medium" id="lastname" value="Howard" />
-                                                    </div> <!-- /controls -->
-                                                </div> <!-- /control-group -->
+                                                    <span class="control-label">部门:</span><span class="control-label" id="department">加载失败...</span>
+                                                </div>
 
 
-                                                <div class="control-group">
-                                                    <label class="control-label" for="email">Email Address</label>
-                                                    <div class="controls">
-                                                        <input type="text" class="input-large" id="email" value="rod.howard@example.com" />
-                                                    </div> <!-- /controls -->
-                                                </div> <!-- /control-group -->
-
-
-                                                <br /><br />
-
-                                                <div class="control-group">
-                                                    <label class="control-label" for="password1">Password</label>
-                                                    <div class="controls">
-                                                        <input type="password" class="input-medium" id="password1" value="password" />
-                                                    </div> <!-- /controls -->
-                                                </div> <!-- /control-group -->
-
-
-                                                <div class="control-group">
-                                                    <label class="control-label" for="password2">Confirm</label>
-                                                    <div class="controls">
-                                                        <input type="password" class="input-medium" id="password2" value="password" />
-                                                    </div> <!-- /controls -->
-                                                </div> <!-- /control-group -->
-
-
-
-                                                <br />
-
-
-                                                <div class="form-actions">
-                                                    <button type="submit" class="btn btn-primary">Save</button>
-                                                    <button class="btn">Cancel</button>
-                                                </div> <!-- /form-actions -->
                                             </fieldset>
                                             </form>
                                         </div>
 
                                         <div class="tab-pane" id="2">
-                                            <form id="edit-profile2" class="form-horizontal" />
+                                            <p id="edit-profile2" class="form-horizontal" />
                                             <fieldset>
 
 
-                                                <div class="control-group">
-                                                    <label class="control-label" for="accounttype">Account Type</label>
-                                                    <div class="controls">
-                                                        <label class="radio">
-                                                            <input type="radio" name="accounttype" value="option1" checked="checked" id="accounttype" />
-                                                            POP3
-                                                        </label>
-                                                        <label class="radio">
-                                                            <input type="radio" name="accounttype" value="option2" />
-                                                            IMAP
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <div class="control-group">
-                                                    <label class="control-label" for="accountusername">Account Username</label>
-                                                    <div class="controls">
-                                                        <input type="text" class="input-large" id="accountusername" value="rod.howard@example.com" />
-                                                        <p class="help-block">Leave blank to use your profile email address.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="control-group">
-                                                    <label class="control-label" for="emailserver">Email Server</label>
-                                                    <div class="controls">
-                                                        <input type="text" class="input-large" id="emailserver" value="mail.example.com" />
-                                                    </div>
-                                                </div>
-                                                <div class="control-group">
-                                                    <label class="control-label" for="accountpassword">Password</label>
-                                                    <div class="controls">
-                                                        <input type="text" class="input-large" id="accountpassword" value="password" />
-                                                    </div>
-                                                </div>
-
-
 
 
                                                 <div class="control-group">
-                                                    <label class="control-label" for="accountadvanced">Advanced Settings</label>
+                                                    <label class="control-label" for="oldpassword">原密码</label>
                                                     <div class="controls">
-                                                        <label class="checkbox">
-                                                            <input type="checkbox" name="accountadvanced" value="option1" checked="checked" id="accountadvanced" />
-                                                            User encrypted connection when accessing this server
-                                                        </label>
-                                                        <label class="checkbox">
-                                                            <input type="checkbox" name="accounttype" value="option2" />
-                                                            Download all message on connection
-                                                        </label>
+                                                        <input type="password" class="input-large" id="oldpassword" />
                                                     </div>
                                                 </div>
+                                                <div class="control-group">
+                                                    <label class="control-label" for="newpassword">新密码</label>
+                                                    <div class="controls">
+                                                        <input type="password" class="input-large" id="newpassword" />
+                                                    </div>
+                                                </div>
+                                                <div class="control-group">
+                                                    <label class="control-label" for="repeatpassword">确认新密码</label>
+                                                    <div class="controls">
+                                                        <input type="password" class="input-large" id="repeatpassword" />
+                                                    </div>
+                                                </div>
+                                                <p id="fault" name="faultw"></p>
 
 
                                                 <br />
 
                                                 <div class="form-actions">
-                                                    <button type="submit" class="btn btn-primary">Save</button> <button class="btn">Cancel</button>
+                                                    <button type="submit" id="changepasswd" class="btn btn-primary">提交</button> <a class="btn" href="uprofile.jsp">返回</a>
                                                 </div>
                                             </fieldset>
-                                            </form>
+                                            </p>
                                         </div>
 
                                     </div>
@@ -352,6 +285,52 @@
 
 
 <script src="./js/bootstrap.js"></script>
+
+<script>
+    $(document).ready(function(){    //用来显示基本信息
+        var url="adminprofile";
+
+        $.ajax({url: url, type: "post", success: function (data) {
+            //alert(data);
+            var json=eval("("+data+")");
+            var list=json.aaData;
+            //alert(list);
+            document.getElementById("userid").innerHTML=list[0].userid;
+            document.getElementById("name").innerHTML=list[0].name;
+            document.getElementById("department").innerHTML=list[0].department;
+        }
+        });
+
+
+
+    });
+
+</script>
+
+<script>
+    $("#changepasswd").click(function () {
+        //alert($("#repeatpassword").val());
+        if($("#newpassword").val()!=$("#repeatpassword").val()){
+            alert("两次输入新密码不匹配！");
+            //document.getElementsByName("faultw").innerHTML=errorword;
+        }
+        else{
+            postdata();
+        }
+
+    });
+
+    function postdata() {
+        //alert(1111);
+        $.ajax({url:"userchangepasswd",
+            type:"post",
+            data:"oldpassword="+$("#oldpassword").val()+"&newpassword="+$("#newpassword").val()+"&repeatpassword="+$("#repeatpassword").val(),
+            success:function (data) {
+                var json = eval("("+data+")");
+                alert(json.msg);
+            }})
+    }
+</script>
 
 </body>
 </html>
