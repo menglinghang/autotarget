@@ -321,11 +321,12 @@
     });
 
     function postdata() {
-        //alert(1111);
-        $.ajax({url:"userchangepasswd",
+        $.ajax({url:"adminchangepasswd",
             type:"post",
             data:"oldpassword="+$("#oldpassword").val()+"&newpassword="+$("#newpassword").val()+"&repeatpassword="+$("#repeatpassword").val(),
             success:function (data) {
+                alert(11);
+
                 var json = eval("("+data+")");
                 alert(json.msg);
             }})

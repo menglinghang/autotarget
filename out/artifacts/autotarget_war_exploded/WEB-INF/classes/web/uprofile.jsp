@@ -354,7 +354,6 @@
     });
 
     function postdata() {
-        //alert(1111);
         $.ajax({url:"userchangepasswd",
             type:"post",
             data:"oldpassword="+$("#oldpassword").val()+"&newpassword="+$("#newpassword").val()+"&repeatpassword="+$("#repeatpassword").val(),

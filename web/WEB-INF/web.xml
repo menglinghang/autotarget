@@ -73,6 +73,14 @@
         <servlet-name>UserChangePasswd</servlet-name>
         <url-pattern>/userchangepasswd</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>AdminChangePasswd</servlet-name>
+        <servlet-class>com.target.servlet.AdminChangePasswd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminChangePasswd</servlet-name>
+        <url-pattern>/adminchangepasswd</url-pattern>
+    </servlet-mapping>
 
 <!--
     <filter>
