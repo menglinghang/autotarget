@@ -248,26 +248,7 @@
     </div>
     <div class="modal-body">
         <span> <bold></bold></span>
-        <span id="">
-            <div class="control-group">
-                <label class="control-label" for="userid_mod">用户名</label>
-                <div class="controls">
-                    <input type="text" class="input-large" id="userid_mod" />
-                </div>
-            </div>
-            <div class="control-group">
-                <label class="control-label" for="department_mod">部门</label>
-                <div class="controls">
-                    <input type="text" class="input-large" id="department_mod" />
-                </div>
-            </div>
-            <div class="control-group">
-                <label class="control-label" for="office_mod">职位</label>
-                <div class="controls">
-                    <input type="text" class="input-large" id="office_mod" />
-                </div>
-            </div>
-        </span>
+        <span id=""></span>
     </div>
     <div class="modal-footer">
         <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>

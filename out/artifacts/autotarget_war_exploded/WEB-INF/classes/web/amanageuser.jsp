@@ -130,8 +130,7 @@
                 <hr/>
 
                 <div class="sidebar-extra">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                    <p>查看战士的数据和信息，并可以进行相应的操作（新增，修改，删除，导出信息等）！</p>
                 </div> <!-- .sidebar-extra -->
 
                 <br/>
@@ -211,49 +210,7 @@
                 </div> <!-- /widget -->
 
 
-                <div class="row">
 
-                    <div class="span5">
-
-                        <div class="widget">
-
-                            <div class="widget-header">
-                                <h3>5 Column</h3>
-                            </div> <!-- /widget-header -->
-
-                            <div class="widget-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt mollit anim id est laborum.</p>
-                            </div> <!-- /widget-content -->
-
-                        </div> <!-- /widget -->
-
-                    </div> <!-- /span5 -->
-
-                    <div class="span4">
-
-                        <div class="widget">
-
-                            <div class="widget-header">
-                                <h3>4 Column</h3>
-                            </div> <!-- /widget-header -->
-
-                            <div class="widget-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur.</p>
-                            </div> <!-- /widget-content -->
-
-                        </div> <!-- /widget -->
-                    </div> <!-- /span4 -->
-
-                </div> <!-- /row -->
 
             </div> <!-- /span9 -->
 
@@ -267,11 +224,11 @@
 
 <jsp:include page="footer.jsp"></jsp:include>
 
-
+<!--删除单个user的modal-->
 <div id="delModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel">确认删除用户信息？</h3>
+        <h3>确认删除用户信息？</h3>
     </div>
     <div class="modal-body">
         <span> <bold>用户名：</bold></span>
@@ -279,7 +236,42 @@
     </div>
     <div class="modal-footer">
         <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
-        <button class="btn btn-primary">确认</button>
+        <button class="btn btn-primary" onclick="delone();">确认</button>
+    </div>
+</div>
+
+<!-- 修改单个user信息的modal -->
+<div id="modModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3>填写用户信息：</h3>
+    </div>
+    <div class="modal-body">
+        <span> <bold></bold></span>
+        <span id="">
+            <div class="control-group">
+                <label class="control-label" for="userid_mod">用户名</label>
+                <div class="controls">
+                    <input type="text" class="input-large" id="userid_mod" />
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="department_mod">部门</label>
+                <div class="controls">
+                    <input type="text" class="input-large" id="department_mod" />
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="office_mod">职位</label>
+                <div class="controls">
+                    <input type="text" class="input-large" id="office_mod" />
+                </div>
+            </div>
+        </span>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+        <button class="btn btn-primary" onclick="">确认</button>
     </div>
 </div>
 
@@ -304,21 +296,7 @@
         Record.init();
     });
     /* ================================================================================ */
-    var MyPage = function () {
-        var initPageStyle = function () {
-            $(".page-content-single").css("background-color", "#fff");
-            $(".page-content-single").css("margin-left", "0px");
-            $(".page-content-single").css("margin-top", "0px");
-            $(".page-content-single").css("min-height", "600px");
-            $(".page-content-single").css("padding", "25px 20px 10px 20px");
-        }
-        return {
-            init: function () {
-                initPageStyle();
-                initLeftMenu("gis");
-            }
-        };
-    }();
+
     var Record = function () {
         var html = "";
         var initRecordStyle = function () {
@@ -358,7 +336,7 @@
                     "data": "userid",
                     "render": function (data, type, full, meta) {
                         var temp = full;
-                        return data = '<a id="deleteone" role="button" data-toggle="modal" class="btn btn-warning btn-sm" data-id=' + full.name + '>删 除</a><button id="deleteOne" class="btn  btn-sm" data-id=' + data + '>修 改</button>';
+                        return data = '<a id="deleteone" role="button" class="btn btn-warning btn-sm" data-id=' + full.name + '>删 除</a><button id="modifyone" class="btn  btn-sm" data-id=' + full.name + '>修 改</button>';
                     }
                 }],
                 "columnDefs": [],
@@ -403,7 +381,7 @@
         // '<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加用户</button>';
 
         //删除用户按钮的HTMLDOM
-        var topPlugin = '<button   class="btn btn-danger btn-sm" id="deleteAll">批量删除</button> <button   class="btn btn-primary btn-sm addBtn" >新 &nbsp;&nbsp;增</button>             <iframe id="exp" style="display:none;"></iframe><button  class="btn btn-info btn-sm" id="expCsv">导出全部</button>             <button  class="btn btn-success btn-sm" id="reset">重置搜索条件</button>';
+        var topPlugin = '<button   class="btn btn-danger btn-sm" id="deleteAll">批量删除</button> <button   class="btn btn-primary btn-sm addBtn" >新 &nbsp;&nbsp;增</button>             <iframe id="exp" style="display:none;"></iframe><button  class="btn btn-info btn-sm" id="expCsv">导出全部</button>';
 
         $("#topPlugin").append(topPlugin);//在表格上方topPlugin DIV中追加HTML
 
@@ -412,14 +390,36 @@
     }
 
 
-        //alert(data);
-        $(document).delegate('#deleteone','click',function(){
-            //alert(0000);
+    $(document).delegate('#deleteone','click',function(){    //由table里的删除button触发
+        //alert(0000);
+        document.getElementById("deleteid").innerHTML=$(this).attr("data-id");
+        $('#delModal').modal('show');
+    })
 
-            document.getElementById("deleteid").innerHTML=$(this).attr("data-id");
-            $('#delModal').modal('show');
-        })
+    function delone() {        //modal里的删除button触发,并显示name
+        var deleteid=document.getElementById("deleteid").innerHTML;
+        //alert(deleteid);
+        var url="deleteoneuser";
+        $.ajax({url:url,
+            type:"post",
+            data:"name="+deleteid,
+            success:function (data) {
+                var json = eval("("+data+")");
+                var list = json.aaData;
+                if(list[0].result){
+                    alert("删除成功！");
+                }else {
+                    alert("删除失败！")
+                }
+                $('#delModal').modal('hide');
+                location.reload();
+            }})
+    }
 
+    $(document).delegate('#modifyone','click',function () {
+
+        $('#modModal').modal('show');
+    })
 
 
 

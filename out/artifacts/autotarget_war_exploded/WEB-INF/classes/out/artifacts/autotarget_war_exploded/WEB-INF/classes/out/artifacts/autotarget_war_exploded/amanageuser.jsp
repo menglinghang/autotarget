@@ -250,21 +250,21 @@
         <span> <bold></bold></span>
         <span id="">
             <div class="control-group">
-                <label class="control-label" for="userid_mod">用户名</label>
+                <label class="control-label" for="oldpassword">原密码</label>
                 <div class="controls">
-                    <input type="text" class="input-large" id="userid_mod" />
+                    <input type="password" class="input-large" id="oldpassword" />
                 </div>
             </div>
             <div class="control-group">
-                <label class="control-label" for="department_mod">部门</label>
+                <label class="control-label" for="newpassword">新密码</label>
                 <div class="controls">
-                    <input type="text" class="input-large" id="department_mod" />
+                    <input type="password" class="input-large" id="newpassword" />
                 </div>
             </div>
             <div class="control-group">
-                <label class="control-label" for="office_mod">职位</label>
+                <label class="control-label" for="repeatpassword">确认新密码</label>
                 <div class="controls">
-                    <input type="text" class="input-large" id="office_mod" />
+                    <input type="password" class="input-large" id="repeatpassword" />
                 </div>
             </div>
         </span>

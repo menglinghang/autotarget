@@ -58,7 +58,7 @@ public class LoginCheck extends HttpServlet {
                     RequestDispatcher rd = getServletContext().getRequestDispatcher("/admin_index.jsp");
                     rd.forward(request, response);
                 } else {
-                    request.setAttribute("error", "<font color=\"purple\">管理用户名或密码错误！</font>");
+                    request.setAttribute("error", "<font color=\"purple\">管理员用户名或密码错误！</font>");
                     RequestDispatcher rd = getServletContext().getRequestDispatcher("/login.jsp");
                     rd.forward(request, response);
                 }

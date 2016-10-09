@@ -81,6 +81,14 @@
         <servlet-name>AdminChangePasswd</servlet-name>
         <url-pattern>/adminchangepasswd</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteOneUser</servlet-name>
+        <servlet-class>com.target.servlet.DeleteOneUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteOneUser</servlet-name>
+        <url-pattern>/deleteoneuser</url-pattern>
+    </servlet-mapping>
 
 <!--
     <filter>
